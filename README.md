@@ -1,49 +1,22 @@
-[![Build](https://travis-ci.org/gorhill/uBlock.svg?branch=master)](https://travis-ci.org/gorhill/uBlock)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg)](https://crowdin.com/project/ublock)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt)
-
-*** 
-
 <h1 align="center">
 <sub>
 <img  src="https://raw.githubusercontent.com/gorhill/uBlock/master/doc/img/icon38@2x.png" height="38" width="38">
 </sub>
-uBlock Origin
+uBlock for Edge
 </h1>
-<p align="center">
-<sup> <!-- Pronounciation -->
-      pronounced <i>you-block origin</i> (<code>/ˈjuːˌblɒk/</code>) — <i>you</i> decide what enters your browser.
-</sup>
-<br>
-<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>BEWARE!</b> uBlock Origin is (and has always been) COMPLETELY UNRELATED to the web site <code>ublock.org</code></a>.</sub>
-</p>
+
 
 ***
 
-<p align="center">
-<a href="https://addons.mozilla.org/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a> 
-<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Get uBlock Origin for Chromium"></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get uBlock Origin for Microsoft Edge"></a>
-<a href="https://addons.opera.com/extensions/details/ublock/"><img src="https://user-images.githubusercontent.com/585534/107280692-ac7b5f00-6a26-11eb-85c7-088926504452.png" alt="Get uBlock Origin for Opera"></a>
-      <br><sub><a href="https://twitter.com/gorhill/status/1033706103782170625">Do <b>not</b> use uBlock Origin along with other similarly-purposed blockers</a>.</sub>
-      <br><sub>See below for <a href="#installation">more installation options.</a></sub>
-</p>
-
-***
 
 **An efficient blocker add-on for various browsers. Fast, potent, and lean.**
 
-uBlock Origin is **NOT** an "ad blocker": [it is a wide-spectrum blocker](https://github.com/gorhill/uBlock/wiki/Blocking-mode) -- which happens to be able to function as a mere "ad blocker". The default behavior of uBlock Origin when newly installed is to block ads, trackers and malware sites -- through [_EasyList_](https://easylist.github.io/#easylist), [_EasyPrivacy_](https://easylist.github.io/#easyprivacy), [_Peter Lowe’s ad/tracking/malware servers_](https://pgl.yoyo.org/adservers/policy.php), [_Online Malicious URL Blocklist_](https://gitlab.com/curben/urlhaus-filter#urlhaus-malicious-url-blocklist), and uBlock Origin's [own filter lists](https://github.com/uBlockOrigin/uAssets/tree/master/filters).
+uBlock for Edge is **NOT** an "ad blocker": [it is a wide-spectrum blocker](https://github.com/gorhill/uBlock/wiki/Blocking-mode) -- which happens to be able to function as a mere "ad blocker". The default behavior of uBlock Origin when newly installed is to block ads, trackers and malware sites -- through [_EasyList_](https://easylist.github.io/#easylist), [_EasyPrivacy_](https://easylist.github.io/#easyprivacy), [_Peter Lowe’s ad/tracking/malware servers_](https://pgl.yoyo.org/adservers/policy.php), [_Online Malicious URL Blocklist_](https://gitlab.com/curben/urlhaus-filter#urlhaus-malicious-url-blocklist), and uBlock Origin's [own filter lists](https://github.com/uBlockOrigin/uAssets/tree/master/filters).
 
 ***
 
 * [Documentation](#documentation)
 * [Purpose & General Info](#philosophy)
-* [Installation](#installation)
-  * [Chromium](#chromium)
-  * [Firefox](#firefox--firefox-for-android)
-  * [Microsoft Edge](#microsoft-edge)
-  - [Safari (macOS)](#safari-macos)
 * [Release History](#release-history)
 * [Privacy policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
 * [Wiki](https://github.com/gorhill/uBlock/wiki)
@@ -71,48 +44,6 @@ _EasyList_, _EasyPrivacy_, _Peter Lowe's_, _Online Malicious URL Blocklist_ and 
 
 Once you install uBlock Origin, you may easily un-select any of the pre-selected filter lists if you think uBlock Origin blocks too much. For reference, Adblock Plus installs with only _EasyList_ enabled by default.
 
-## Installation
-
-Feel free to read [about the extension's required permissions](https://github.com/gorhill/uBlock/wiki/Permissions).
-
-#### Chromium
-
-You can install the latest version [manually](https://github.com/gorhill/uBlock/tree/master/dist#install), from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), or from the [Opera add-ons](https://addons.opera.com/extensions/details/ublock/).
-
-There is also a development version in the Chrome Web Store if you want to test uBlock Origin with the latest changes: see [_uBlock Origin dev build_](https://chrome.google.com/webstore/detail/ublock-origin-dev-build/cgbcahbpdhpcegmbfconppldiemgcoii).
-
-It is expected that uBlock Origin is compatible with any Chromium-based browsers.
-
-#### Firefox / Firefox for Android
-
-[Firefox Add-ons web site](https://addons.mozilla.org/addon/ublock-origin/).
-
-There is also a development version if you want to test uBlock Origin with the latest changes: for installation, see [Install / Firefox webext / For beta version](https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version)
-
-uBlock Origin is compatible with [SeaMonkey](http://www.seamonkey-project.org/), [Pale Moon](https://www.palemoon.org/), and possibly other browsers based on Firefox: for installation, see [Install / Firefox legacy](https://github.com/gorhill/uBlock/blob/master/dist/README.md#firefox-legacy).
-
-uBO may also be installed as a [Debian package](https://packages.debian.org/stable/source/ublock-origin):
-
-- Firefox 56-: `apt-get install xul-ext-ublock-origin`
-- Firefox 55+: `apt-get install webext-ublock-origin`
-
-There is no guarantee the package will be available on your specific platform -- in which case, you will have to install from [Firefox Add-ons web site](https://addons.mozilla.org/addon/ublock-origin/).
-
-#### Microsoft Edge
-
-Publisher: [Nik Rolls](https://github.com/nikrolls/uBlock-Edge).
-
-Chromium-based Edge: Stable version available in [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak).
-
-#### Safari (macOS)
-
-Developer: [@el1t](https://github.com/el1t).
-
-Development version available at <https://github.com/el1t/uBlock-Safari#ublock-originfor-safari>.
-
-Warning: It is not possible for extensions like uBlock Origin to work with Safari 13+. See <https://github.com/el1t/uBlock-Safari/issues/158>.
-
-Note that issues specific to the Safari fork are the responsibility of the current maintainer, I have no control over the code base of the fork.
 
 #### Note for all browsers
 
